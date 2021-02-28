@@ -1,0 +1,22 @@
+a{color:gray;
+text-decoration:none;}
+
+.saw{color:yellowgreen;}
+
+div{padding-left:15px }
+
+#active h1{text-align:center; font-size:55px;border-bottom:1px solid gray; margin: 0px;padding-top: 20px;}
+
+#grid{display:grid; grid-template-columns: 150px 1fr;}
+
+#grid ul{border-right:1px solid gray;margin:0px; padding-top: 0px;}
+
+@media (max-width:750px)
+
+{#grid{
+    display:block; padding-left: 0px}
+
+    #grid ul{border-right:none}
+
+    #active h1{border-bottom:none;}
+  }
